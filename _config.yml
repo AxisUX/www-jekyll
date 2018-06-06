@@ -47,4 +47,15 @@ destination: "../www/"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: ['node_modules']
+exclude:
+  - 'node_modules'
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - blog.sublime-project
+  - blog.sublime-workspace
+  - build.sh
+  - package.json
+  - package-lock.json
+  - webpack
+  - webpack.config.js
