@@ -15,6 +15,9 @@ GitAddCommit () {
 
     cd ../www
     pwd
+    git add . &&
+    git commit -a -m "$commitMessage"
+    cd ../www-jekyll
 }
 
 GitPush () {
