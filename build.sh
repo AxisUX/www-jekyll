@@ -18,10 +18,17 @@ GitAddCommit () {
     git add . &&
     git commit -a -m "$commitMessage"
     cd ../www-jekyll
+    pwd
 }
 
 GitPush () {
     git push -u origin master
+
+    cd ../www
+    pwd
+    git push -u origin master
+    cd ../www-jekyll
+    pwd
 }
 
 ServLocal () {
