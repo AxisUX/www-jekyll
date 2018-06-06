@@ -12,6 +12,9 @@ GitAddCommit () {
 
     git add . &&
     git commit -a -m "$commitMessage"
+
+    cd ../www
+    pwd
 }
 
 GitPush () {
