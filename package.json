@@ -1,0 +1,39 @@
+{
+  "name": "axisux-website",
+  "version": "0.0.1",
+  "description": "- Update NVM     + `cd ~/`     + `git clone https://github.com/creationix/nvm.git .nvm`     + `cd ~/.nvm`     + Check for the latest NVM version [NVM Releases](https://github.com/creationix/nvm/releases)         * `git checkout v0.33.11`     + Source the new version from the shell         * `. nvm.sh` - Update Node     + `nvm ls-remote`     + `nvm install v10.1.0`     + `nvm use v10.1.0`    - Update Macports     + `sudo port -d selfupdate`     + `sudo port -d upgrade outdated` - Install Ruby Version Manager     + `sudo port -d install rvm`  - Update Ruby     + Check for latest Ruby [Ruby Releases](https://www.ruby-lang.org/en/downloads/releases/)     + `rvm install 2.5.1`  - Install WebPack     + `sudo npm install webpack -g` - Install Jekyll     + `sudo gem install jekyll -g` - Navigate to Project Directory     + Setup Project Versions         * Create a direnv directive file             - `touch .envrc`             - Add the version of ruby to `.envrc`                 ```shell                 rvm use 2.5.1                 layout Ruby                 ```         * Setup Node version file             - Make sure node version is set to updated version, `nvm use v10.1.0`             - `node -v > .nvmrc`     + Initialize NPM for the project         * `npm init`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh ./build.sh start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmidlo/blog.git"
+  },
+  "author": "David Midlo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmidlo/blog/issues"
+  },
+  "homepage": "https://github.com/dmidlo/blog#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "install": "^0.11.0",
+    "react": "^16.4.0",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0"
+  }
+}
