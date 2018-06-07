@@ -2,7 +2,7 @@
 layout: post
 title: "Dual-Delivery: Powershell For Google Apps Mail Forwarding From Exchange"
 author: David Midlo
-tags: [ Exchange, Powershell, Google Apps, Dual-Delivery ]
+tags: [ Exchange Server, Powershell, Google Apps, Dual-Delivery ]
 categories: [ fieldnotes, Engineering, Infrastructure]
 ---
 # Problem:

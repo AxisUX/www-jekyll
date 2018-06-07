@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add Author to Jekyll Post
+title: Powershell for Resuming a Script from Known Last Position
 author: David Midlo
 tags: [ Powershell ]
 categories: [ fieldnotes, Engineering, Infrastructure]
@@ -14,7 +14,7 @@ There are some other moving parts required to get this off the ground.  When dea
 {% highlight Powershell %}
 #############################################################################
 ##  ScriptName: last_session.ps1
-##  author: @davidmidlo (twitter)    thatdamnadmin@bestdamnadmin.com
+##  author: @dmidlo (twitter)    david@axisux.com
 ## 
 ## Purpose:  a Proof of Concept script that stores the current progress of a foreach
 ##   loop to a file to enable the script to resume from where it left off
