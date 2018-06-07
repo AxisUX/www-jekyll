@@ -50,25 +50,30 @@ Password: {enter you password}
 {% endhighlight %}
 
 
-### Check the Version via CLI
+#### Check the Version via CLI
 
+{% highlight shell %}
+{% raw %}
 [root@ESXi:~] esxcli system version get
 
    Product: VMware ESXi
-
    Version: 6.0.0
-
    Build: Releasebuild-3029758
-
    Update: 1
-
    Patch: 17
+{% endraw %}
+{% endhighlight %}
 
-### Enable HTTP Client Firewall Rule
 
+#### Enable HTTP Client Firewall Rule
+
+{% highlight shell %}
+{% raw %}
 [root@ESXi:~] esxcli network firewall ruleset set -e true -r httpClient
+{% endraw %}
+{% endhighlight %}
 
-### Check VMware Repository for available versions
+#### Check VMware Repository for available versions
 
 [root@ESXi:~] esxcli software sources profile list -d [https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml](https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml) | grep -i ESXi-6
 
