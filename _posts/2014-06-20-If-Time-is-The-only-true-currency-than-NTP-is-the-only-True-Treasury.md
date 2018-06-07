@@ -35,7 +35,7 @@ Many will simply use Active Directory Domain Controllers as the common time keep
 
 Here is an example NTP topology with a consideration of the limitations of Active Directory’s use of NTP authentication:
 
-![NTP Architeture]({{ "assets/images/posts/NTP-Architecture.jpg" | absolute_url }})
+![NTP Architeture]({{ "assets/images/posts/If-Time-is-The-only-true-currency-than-NTP-is-the-only-True-Treasury/NTP-Architecture.jpg" | absolute_url }})
 
 NIST actually provides access to NTP authentication services to the general public for free.  [You can find out how here](https://www.nist.gov/pml/time-and-frequency-division/time-services/nist-authenticated-ntp-service).  The two NIST NTP servers that provide authentication are  ntp-a.boulder.nst.gov and ntp-b.nist.gov, the same two servers that most hardware clocks use (that I’ve had experience with anyway.)
 
