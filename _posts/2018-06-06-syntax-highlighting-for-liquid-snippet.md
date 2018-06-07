@@ -3,7 +3,7 @@ layout: post
 title: Syntax Highlighting for Liquid Snippet
 author: David Midlo
 tags: [ jekyll, post, liquid, syntax highlighting, code block ]
-categories: [ field notes, Engineering, Development]
+categories: [ fieldnotes, Engineering, Development]
 ---
 # Problem:
 Liquid Engine attempts to parse code snippet contained within a markdown code block.

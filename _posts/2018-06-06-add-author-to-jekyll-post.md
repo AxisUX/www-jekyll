@@ -3,7 +3,7 @@ layout: post
 title: Add Author to Jekyll Post
 author: David Midlo
 tags: [ jekyll, post, front matter ]
-categories: [ field notes, Engineering, Development]
+categories: [ fieldnotes, Engineering, Development]
 ---
 # Problem:
 Author should be listed on post in Jekyll.

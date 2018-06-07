@@ -3,7 +3,7 @@ layout: post
 title: "Dual-Delivery: Powershell For Google Apps Mail Forwarding From Exchange"
 author: David Midlo
 tags: [ Exchange, Powershell, Google Apps, Dual-Delivery ]
-categories: [ field notes, Engineering, Infrastructure]
+categories: [ fieldnotes, Engineering, Infrastructure]
 ---
 # Problem:
 When Setting up Dual-Delivery between an exchange and Google Apps Environment only limited co-existence is possible.  It's even further away from possibility to syncronize mailbox contents and state between the two environments.  
