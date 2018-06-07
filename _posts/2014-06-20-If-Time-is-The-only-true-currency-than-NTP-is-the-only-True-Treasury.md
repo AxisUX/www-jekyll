@@ -3,7 +3,7 @@ layout: post
 title: "If Time is the Only True Currency, Than NTP is the Only True Treasury"
 author: David Midlo
 tags: [ NTP, Active Directory, Windows Server ]
-categories: [ fieldnotes, Engineering, infrastructure]
+categories: [ fieldnotes, Engineering, Infrastructure]
 ---
 Good timekeeping is essential in enterprise IT infrastructure. If left unattended, inaccurate or out of sync time can cause all sorts of issues. On the mundane side, it can be tough to compare syslog messages when the timestamps can not be trusted. On the more extreme side, with enough drift between clocks could result in a complete work stoppage as users may not be able to authenticate against a directory server to get logged in in the morning.
 
@@ -50,4 +50,3 @@ If the small hints of the catastrophe mentioned above are not enough to convince
 If you’re looking at your NTP design now, I hope this post has pointed out some often unconsidered design issues and helps you to spend time more securely.  I may follow up with a post on device specific configurations; Cisco, HP Procurve L2/L3 device configs, ASA configurations, OS X & Linux configs, and Windows batch, powershell, and group policy scripts and settings.  All of these are easily googled for, so then again, I may not.
 
 There are also considerations that need to be made regarding time services in virtualized environments, in as far as hypervisor and guest timekeeping.  For a good article regarding timekeeping in Microsoft’s Hyper-V see [this blog post by Ben Armstrong](https://blogs.msdn.microsoft.com/virtual_pc_guy/2010/11/19/time-synchronization-in-hyper-v/), the Hyper-V program manager.  The problems outlined by Ben are applicable not only to hyper-v, but VMware, Citrix, Xen or any other virtualization platform as well.
-
