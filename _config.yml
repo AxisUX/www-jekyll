@@ -53,8 +53,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - blog.sublime-project
-  - blog.sublime-workspace
+  - AxisUX-WWW.sublime-project
+  - AxisUX-WWW.sublime-workspace
   - build.sh
   - package.json
   - package-lock.json
