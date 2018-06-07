@@ -63,3 +63,12 @@ exclude:
 
 include:
   - .nojekyll
+
+assets:
+  sources:
+    - assets/css
+    - assets/documents
+    - assets/documents/pdfs
+    - assets/images
+    - assets/javascript
+
