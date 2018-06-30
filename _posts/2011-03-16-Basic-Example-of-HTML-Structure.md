@@ -2,7 +2,7 @@
 layout: post
 title: "Basic Example of HTML Structure"
 author: David Midlo
-tags: [ html, structure ]
+tags: [ html, structure, body, p, paragraph, h1, h2, headings ]
 categories: [ fieldnotes, Engineering, Development]
 last_modified_at: 2011-10-03
 ---
