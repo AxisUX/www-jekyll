@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"val",
+				"value\tAttr"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"localstr",
+				"localStorage\tStorage"
+			],
+			[
+				"loadt",
+				"loadToDo01\tfn "
+			],
+			[
+				"innerH",
+				"innerHTML\tstring"
+			],
+			[
+				"get",
+				"getElementById\t(elementId: string) => (HTMLElement | null)"
+			],
+			[
+				"document",
+				"document\tDocument"
+			],
+			[
+				"content",
+				"contenteditable\tAttr"
+			],
+			[
 				"h2",
 				"h2\tTag"
 			],
@@ -176,10 +208,6 @@
 				"datalist\tTag"
 			],
 			[
-				"inp",
-				"input\tTag"
-			],
-			[
 				"su",
 				"summary\tTag"
 			],
@@ -234,10 +262,6 @@
 			[
 				"getOwn",
 				"getOwnPropertyNames\t( o: Object ): string[] Object"
-			],
-			[
-				"val",
-				"values"
 			],
 			[
 				"undt",
@@ -490,30 +514,6 @@
 			[
 				"padding",
 				"padding-left"
-			],
-			[
-				"line",
-				"line-height"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"lo",
-				"logo-nettuts.png\tw:90 h:27"
-			],
-			[
-				"form",
-				"formatAmount"
-			],
-			[
-				"part",
-				"partilces"
-			],
-			[
-				"request",
-				"requestAnimationFrame"
 			]
 		]
 	},
@@ -564,8 +564,76 @@
 		"selected_items":
 		[
 			[
+				"syn javasc",
+				"Set Syntax: JavaScript (DOM)"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"liqu",
+				"Set Syntax: Liquid HTML"
+			],
+			[
+				"liquid (",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"liquid sy",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"liquid",
+				"Set Syntax: Liquid HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
 			],
 			[
 				"bash",
@@ -608,10 +676,6 @@
 				"Set Syntax: Bourne Again Shell (bash)"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"json",
 				"Set Syntax: JSON"
 			],
@@ -620,28 +684,12 @@
 				"Terminal: Open in project folder"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"ternjs",
 				"TernJS: Reload"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"syntax bab",
 				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"react sy",
@@ -724,16 +772,8 @@
 				"Snippet: Markdown Header 1"
 			],
 			[
-				"rem",
-				"Package Control: Remove Package"
-			],
-			[
 				"set pw",
 				"Set Syntax: PowerShell"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"op",
@@ -742,10 +782,6 @@
 			[
 				"o",
 				"File: Open In Browser - Production Server"
-			],
-			[
-				"pretty",
-				"HTMLPrettify"
 			],
 			[
 				"open",
@@ -800,10 +836,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"list pa",
 				"Package Control: List Packages"
 			],
@@ -830,10 +862,6 @@
 			[
 				"babel",
 				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"remov",
-				"Package Control: Remove Package"
 			],
 			[
 				"Package Contro",
@@ -908,7 +936,7 @@
 	},
 	"console":
 	{
-		"height": 254.0,
+		"height": 587.0,
 		"history":
 		[
 			"exit",
@@ -930,10 +958,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW"
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_layouts",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/assets",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/assets/javascript",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/webpack",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/webpack/components"
 	],
 	"file_history":
 	[
+		"/Volumes/STORAGE/ISOLINUX.CFG",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/webpack/entry.js",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/assets/javascript/bundle.js",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2013-07-13-Create-Simple-ToDo-App-01.md",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2013-07-14-Create-Simple-ToDo-App-02.md",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2011-03-16-Basic-Example-of-HTML-Structure.md",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_layouts/fieldnotes.html",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_layouts/post.html",
+		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/node_modules/babel-helper-builder-react-jsx/lib/index.js",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2011-03-17-HTML-element-attributes.md",
 		"/Users/davidmidlo/Desktop/Powershell/migrate-linked-mailboxes.ps1",
 		"/Users/davidmidlo/Dropbox/projects/dotfiles/.zshrc",
@@ -944,7 +988,6 @@
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2012-12-02-Powershell-for-Google-Apps-Migration-mail-forwarding-from-exchange.md",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2014-06-17-Powershell-for-Resuming-a-Script-from-Known-Last-Position.md",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www/fieldnotes/engineering/infrastructure/2014/06/17/Powershell-for-Resuming-a-Script-from-Known-Last-Position.html",
-		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/webpack/entry.js",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/webpack/components/Hello.js",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/Gemfile",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_layouts/default.html",
@@ -955,7 +998,6 @@
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/build.sh",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2018-06-06-add-author-to-jekyll-post.md",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_posts/2018-06-06-syntax-highlighting-for-liquid-snippet.md",
-		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_layouts/fieldnotes.html",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_drafts/field-notes-template.md",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www/robots.txt",
 		"/Users/davidmidlo/Dropbox/projects/AxisUX-WWW/www-jekyll/_site/index.html",
@@ -1054,18 +1096,11 @@
 		"/Users/davidmidlo/Dropbox/projects/templates/css/color/foreground-color-01/index.html",
 		"/Users/davidmidlo/Dropbox/projects/templates/css/color/foreground-color-01",
 		"/Users/davidmidlo/Dropbox/projects/templates/css/structure/inheritance-01/css/inheritance.css",
-		"/Users/davidmidlo/Dropbox/projects/templates/css/structure/inheritance-01/index.html",
-		"/Users/davidmidlo/Dropbox/projects/templates/css/structure/css-selectors-01/css/selectors.css",
-		"/Users/davidmidlo/Dropbox/projects/wittr/public/js/main/IndexController.js",
-		"/opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_release_tarballs_ports_aqua_iTerm2/iTerm2/main.log",
-		"/Users/davidmidlo/Dropbox/projects/clairspiano/piano.css",
-		"/Users/davidmidlo/Dropbox/projects/clairspiano/index.html",
-		"/Users/davidmidlo/Dropbox/projects/clairspiano/piano.js",
-		"/Users/davidmidlo/Dropbox/projects/clairspiano/audio.js"
+		"/Users/davidmidlo/Dropbox/projects/templates/css/structure/inheritance-01/index.html"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -1079,6 +1114,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class",
+			"hello"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1150,13 +1187,17 @@
 		"rows":
 		[
 			0.0,
-			0.33,
-			0.66,
+			0.0569476082005,
+			0.854405431378,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
 	{
 		"height": 0.0
 	},
@@ -1169,6 +1210,10 @@
 		"height": 0.0
 	},
 	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
 	{
 		"height": 0.0
 	},
@@ -1210,7 +1255,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 1,
 	"settings":
 	{
 	},
